@@ -1,0 +1,41 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+.navbar-wrapper .navbar {
+  border-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0;
+}
+
+/* Responsive styles
+------------------------- */
+@media (min-width: 992px) {
+  .featurette-text-col {
+    padding-top: 70px;
+  }
+}
+@media (min-width: 1200px) {
+  .featurette-text-col {
+    padding-top: 130px;
+  }
+}
