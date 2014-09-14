@@ -106,15 +106,12 @@ a:hover {
 #features {
   margin-top: 70px;
 }
-.feature-divider {
-  margin: 80px 0;
-}
-
-/* Responsive styles
-------------------------- */
 @media (min-width: 992px) {
   .feature-text-col {
     padding-top: 70px;
+  }
+  .feature-divider {
+    margin: 80px 0;
   }
 }
 @media (min-width: 1200px) {
