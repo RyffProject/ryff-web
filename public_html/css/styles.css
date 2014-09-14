@@ -78,6 +78,28 @@ a:hover {
   }
 }
 
+/* Customize buttons
+------------------------- */
+.btn-primary {
+  background-color: #ffa900;
+  border-color: #cc8700;
+}
+.btn-primary:hover {
+  background-color: #e69800;
+  border-color: #b27600;
+}
+
+/* Main Jumbotron
+------------------------- */
+#jumbotron-main {
+  margin-top: 50px;
+  background-color: #282828;
+  color: #fff;
+}
+#ipad-screenshot1 {
+  margin-top: 25px;
+}
+
 /* Features
 ------------------------- */
 
