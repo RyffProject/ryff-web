@@ -96,6 +96,12 @@ a:hover {
   background-color: #282828;
   color: #fff;
 }
+@media (max-width: 992px) {
+  #jumbotron-main {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 #ipad-screenshot1 {
   margin-top: 25px;
 }
