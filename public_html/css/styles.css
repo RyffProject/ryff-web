@@ -1,41 +1,102 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
-/* Padding below the footer and lighter body text */
 
+/* Padding below the footer and lighter body text */
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
-
-
+/* Change default link color */
+a {
+  color: #00a7d1;
+}
+a:hover {
+  color: #0086a7;
+}
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-.navbar-wrapper .navbar {
+.navbar-custom {
+  background-color: #00a7d1;
+  border-color: #0086a7;
   border-radius: 0;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.7);
 }
-.navbar-wrapper .navbar .container {
-  width: auto;
+.navbar-custom .navbar-brand {
+  color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+  color: #ebebeb;
+}
+.navbar-custom .navbar-text {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+  color: #ebebeb;
+  background: #0096bc;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+  color: #ebebeb;
+  background-color: #0086a7;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+  color: #ebebeb;
+  background-color: #0086a7;
+}
+.navbar-custom .navbar-toggle {
+  border-color: #0086a7;
+}
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+  background-color: #0086a7;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-custom .navbar-link {
+  color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+  color: #ebebeb;
 }
 
+@media (max-width: 767px) {
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ebebeb;
+  }
+  .navbar-custom .navbar-nav .open .dropdown-menu > .active > a, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ebebeb;
+    background-color: #0086a7;
+  }
+}
 
-/* Featurettes
+/* Features
 ------------------------- */
 
-.featurette-divider {
+#features {
+  margin-top: 70px;
+}
+.feature-divider {
   margin: 80px 0;
 }
 
 /* Responsive styles
 ------------------------- */
 @media (min-width: 992px) {
-  .featurette-text-col {
+  .feature-text-col {
     padding-top: 70px;
   }
 }
 @media (min-width: 1200px) {
-  .featurette-text-col {
+  .feature-text-col {
     padding-top: 130px;
   }
 }
