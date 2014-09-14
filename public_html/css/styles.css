@@ -126,8 +126,7 @@ a:hover {
   }
 }
 
-/* About
------------------------- */
-#about {
+/* So the fixed nav bar doesn't cover up anything */
+#content {
   margin-top: 50px;
 }
