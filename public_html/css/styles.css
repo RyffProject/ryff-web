@@ -88,6 +88,10 @@ a:hover {
   background-color: #e69800;
   border-color: #b27600;
 }
+.btn-primary:focus {
+  background-color: #ffa900;
+  border-color: #cc8700;
+}
 
 /* Main Jumbotron
 ------------------------- */
